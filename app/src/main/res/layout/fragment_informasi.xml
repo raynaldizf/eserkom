@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Informasi Pemilu"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_below="@id/header_title"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/pemilu"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengertian Pemilu"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pemilu atau singkatan dari Pemilihan Umum adalah proses demokratis untuk memilih wakil rakyat atau pejabat pemerintahan secara langsung oleh warga negara suatu negara. Pemilihan Umum merupakan mekanisme penting dalam sistem demokrasi modern yang memungkinkan rakyat untuk berpartisipasi dalam menentukan pemimpin dan kebijakan negara."
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fungsi Pemilu"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Pertama berfungsi untuk melaksanakan kedaulatan rakyat dengan memungkinkan warga negara secara langsung memilih wakil-wakil mereka di pemerintahan.\n\n2. Selanjutnya, membentuk pemerintahan yang berlegitimasi karena memberikan legitimasi kepada pemerintahan yang terpilih secara demokratis.\n\n3. Di sisi lain, pemilu memiliki peran penting dalam menentukan perwakilan rakyat dengan memungkinkan warga negara memilih wakil-wakil mereka di lembaga legislatif.\n\n4. Selain itu, berperan dalam menguatkan demokrasi dengan memberikan kesempatan kepada rakyat untuk berpartisipasi dalam pemilihan pemimpin dan menentukan kebijakan negara.\n\n5. Lebih lanjut, mendorong partisipasi politik warga negara dengan memberikan kesempatan bagi mereka untuk terlibat dalam proses politik dan meningkatkan kesadaran politik.\n\n6. Terakhir, memfasilitasi pergantian kekuasaan yang damai dengan menyediakan jalur terorganisir untuk mengubah pemerintahan tanpa konflik atau kekerasan."
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prinsip Pemilu"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Mandiri\nPemilihan Umum harus diselenggarakan secara mandiri oleh penyelenggara, yaitu Komisi Pemilihan Umum (KPU) dan Badan Pengawas Pemilu (Bawaslu), dalam rangka menjaga netralitas dan independensi.\n\n2. Proporsional\nPemilihan Umum harus mewakili berbagai kepentingan dan aspirasi masyarakat secara proporsional, baik dalam hal perwakilan partai politik maupun masyarakat umum.\n\n3. Jujur\nPemilu harus dilaksanakan secara jujur, bebas dari kecurangan, penipuan, atau manipulasi hasil Pemilihan Umum.\n\n4. Profesional\nPenyelenggara Pemilihan Umum harus bertindak secara profesional dalam menjalankan tugas dan fungsi mereka, dengan mematuhi kode etik dan standar kerja yang ditetapkan.\n\n5. Adil\nHarus dilaksanakan secara adil tanpa diskriminasi, memastikan kesempatan yang sama bagi semua peserta Pemilihan Umum untuk berkompetisi secara adil.\n\n6. Akuntabel\nPenyelenggara harus bertanggung jawab dan dapat dipertanggungjawabkan atas tindakan dan keputusan yang diambil dalam penyelenggaraan nya.\n\n7. Berkepastian Hukum\nHarus dilaksanakan berdasarkan hukum yang berlaku, dengan adanya ketentuan yang jelas dan dapat dipahami oleh semua pihak yang terlibat.\n\n8. Efektif\nPenyelenggaraan pemilihan umum harus efektif dalam mencapai tujuan-tujuan yang telah ditetapkan, termasuk dalam hal partisipasi pemilih, keamanan, dan integritas pemilu.\n\n9. Tertib\nPemilihan Umum harus dilaksanakan dengan tertib, menjaga ketertiban dan keamanan selama proses berlangsung.\n\n10. Efisien\nPenyelenggaraan harus dilakukan secara efisien, dengan memanfaatkan sumber daya yang tersedia secara optimal.\n\n11. Terbuka\nHarus dilaksanakan secara terbuka dan transparan, dengan memberikan kesempatan bagi partai politik, calon, dan pemilih untuk memperoleh informasi yang diperlukan tentang proses Pemilihan Umum.\n\nSemua prinsip ini bertujuan untuk memastikan terlaksananya pemilihan umum yang demokratis, adil, dan dapat dipercaya oleh masyarakat."
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
